@@ -2,9 +2,9 @@
 localhost ansible_connection=local
 
 [workshop:vars]
-ocp_domain=CITY-GUID.open.redhat.com
-ocp_apps_domain=CITY-GUID.open.redhat.com
-usersno=10
+ocp_domain=fortal-5421.open.redhat.com
+ocp_apps_domain=apps.fortal-5421.open.redhat.com
+usersno=25
 che=false
 fuse=false
 threescale=false

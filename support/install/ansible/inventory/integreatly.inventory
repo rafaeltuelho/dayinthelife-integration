@@ -11,7 +11,7 @@ master
 ansible_user=ec2-user
 
 [master]
-master1.CITY-GUID.internal
+master1.fortal-5421.internal
 
 [workshop]
 localhost ansible_connection=local
@@ -25,19 +25,20 @@ gogs_project=gogs
 microcks_project=microcks
 apicurio_project=apicurio
 namespace=threescale
+create_wildcard_route=false
 backend_project=international
 configure_only=false
-ocp_domain=CITY-GUID.open.redhat.com
-ocp_apps_domain=CITY-GUID.open.redhat.com
-usersno=50
+ocp_domain=fortal-5421.open.redhat.com
+ocp_apps_domain=apps.fortal-5421.open.redhat.com
+usersno=25
 che=false
 fuse=false
-threescale=false
-apicurio=false
-gogs=false
+threescale=true
+apicurio=true
+gogs=true
 microcks=true
 sso=false
-backend=false
+backend=true
 user_projects=true
 user_tools_projects=false
 create_tenants=true
